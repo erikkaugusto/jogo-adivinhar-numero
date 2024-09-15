@@ -9,7 +9,6 @@
 .conteudo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -27,7 +26,7 @@ body {
     font-size: 42px;
     text-align: center;
     text-transform: uppercase;
-    margin: 3rem 0 2rem;
+    margin: 2rem 0;
 }
 
 .container {
@@ -39,11 +38,23 @@ body {
 
     width: 40vw;
     border-radius: 20px;
-    padding: 40px 0px;
+    padding: 33px 0px;
 }
 
 .subtitulo {
+    font-size: 28px;
+}
+
+.campo-dica {
+    margin-top: 3rem;
     font-size: 30px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.texto-tentativas {
+    font-size: 18px;
+    margin: 3rem 0 .3rem;
 }
 
 .input {
@@ -51,11 +62,6 @@ body {
     border-radius: 8px;
     font-size: 18px;
     text-align: center;
-}
-
-.texto {
-    font-size: 18px;
-    margin: 7rem 0 .3rem;
 }
 
 .botao {
@@ -67,7 +73,7 @@ body {
     color: var(--bg-neutro);
 }
 
-.botao:hover {
+.botao:hover, #jogar-novamente:hover {
     background-color: #0f0f0fd5;
 }
 
@@ -83,5 +89,18 @@ body {
 }
 
 .link-imagem {
-    width: 25px;
+    width: 28px;
+}
+
+.acerto {
+    color: red;
+    font-weight: 700;
+}
+
+#jogar-novamente {
+    margin: 0;
+    padding: 3px 10px;
+    background-color: var(--bg-primario);
+    border-radius: 8px;
+    color: var(--bg-neutro);
 }
