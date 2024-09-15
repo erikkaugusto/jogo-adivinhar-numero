@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --bg-primario: #0F0F0F;
+    --bg-neutro: #ECDFCC;
+    --fonte: "Lato", sans-serif;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: var(--bg-primario);
+    font-family: var(--fonte);
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#titulo {
+    color: var(--bg-neutro);
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3rem 0 2rem;
+}
+
+.container {
+    background-color: var(--bg-neutro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 40vw;
+    border-radius: 20px;
+    padding: 40px 0px;
+}
+
+.subtitulo {
+    font-size: 30px;
+}
+
+.input {
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.texto {
+    font-size: 18px;
+    margin: 7rem 0 .3rem;
+}
+
+.botao {
+    margin: .5rem 0 3rem;
+    padding: 5px 40px;
+    background-color: var(--bg-primario);
+    border-radius: 8px;
+    font-size: 18px;
+    color: var(--bg-neutro);
+}
+
+.botao:hover {
+    background-color: #0f0f0fd5;
+}
+
+.links {
+    /* display: flex;
+    justify-content: center;
+    column-gap: 5px; */
+    margin-top: .5rem;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link-imagem {
+    width: 25px;
+}
