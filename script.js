@@ -10,7 +10,8 @@ let numTentativas = 0;
 botaoChutar.addEventListener("click", () => {
     let valorChutado = campoInput.value;
     if (valorChutado < 1 || valorChutado > 1000) {
-        alert("Número inválido! Por favor insira um número entre 1 e 1000.")
+        alert("Número inválido! Por favor insira um número entre 1 e 1000.");
+        campoInput.value = "";
     } else {
         numTentativas++;
         campoTentativas.innerHTML = `Número de tentativas: ${numTentativas}`
